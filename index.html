@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>河氏碧葉的個人履歷</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Pacifico&display=swap');
+
+body {
+margin: 0;
+font-family: 'Noto Sans TC', sans-serif;
+background: linear-gradient(135deg, #e9f4ff, #fdfbff);
+overflow-x: hidden;
+color: #333;
+}
+
+/* 💫 Bong bóng bay nền */
+@keyframes float {
+0% { transform: translateY(0) scale(1); opacity: 0.8; }
+50% { transform: translateY(-100px) scale(1.1); opacity: 1; }
+100% { transform: translateY(0) scale(1); opacity: 0.8; }
+}
+
+.bubble {
+position: absolute;
+border-radius: 50%;
+background: rgba(173, 216, 230, 0.4);
+animation: float 6s ease-in-out infinite;
+z-index: 0;
+}
+
+.bubble:nth-child(1) { width: 60px; height: 60px; left: 10%; top: 100px; animation-delay: 0s; }
+.bubble:nth-child(2) { width: 80px; height: 80px; left: 30%; top: 180px; animation-delay: 2s; }
+.bubble:nth-child(3) { width: 50px; height: 50px; left: 70%; top: 150px; animation-delay: 1s; }
+.bubble:nth-child(4) { width: 90px; height: 90px; left: 85%; top: 240px; animation-delay: 3s; }
+
+header {
+text-align: center;
+padding: 60px 20px 40px 20px;
+background: linear-gradient(135deg, #a8d8ff, #e3f2ff);
+position: relative;
+z-index: 1;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header img {
+width: 140px;
+height: 140px;
+border-radius: 50%;
+border: 4px solid #fff;
+box-shadow: 0 0 15px rgba(0,0,0,0.15);
+object-fit: cover;
+animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+0%, 100% { transform: scale(1); }
+50% { transform: scale(1.06); }
+}
+
+header h1 {
+font-family: 'Pacifico', cursive;
+font-size: 38px;
+margin: 20px 0 10px;
+color: #0078d7;
+letter-spacing: 2px;
+transition: all 0.4s ease;
+cursor: pointer;
+display: inline-block;
+text-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1:hover {
+color: #ff7f9f;
+text-shadow: 0 0 10px rgba(255, 192, 203, 0.8);
+transform: scale(1.05);
+}
+
+header p {
+color: #555;
+font-size: 17px;
+margin: 5px 0;
+}
+
+.tagline {
+font-style: italic;
+color: #0078d7;
+margin-top: 6px;
+}
+
+section {
+max-width: 850px;
+margin: 50px auto;
+background: #fff;
+border-radius: 14px;
+padding: 35px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+position: relative;
+z-index: 1;
+transition: all 0.3s ease;
+}
+
+section:hover {
+transform: translateY(-4px);
+}
+
+h2 {
+color: #0078d7;
+border-left: 5px solid #0078d7;
+padding-left: 10px;
+margin-bottom: 10px;
+}
+
+p {
+line-height: 1.9;
+font-size: 16px;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+font-size: 14px;
+color: #666;
+background: #f5faff;
+border-top: 1px solid #e0f1ff;
+}
+
+.highlight {
+background: #e8f3ff;
+padding: 3px 8px;
+border-radius: 6px;
+color: #005fab;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Bong bóng nền -->
+<div class="bubble"></div>
+<div class="bubble"></div>
+<div class="bubble"></div>
+<div class="bubble"></div>
+
+<header>
+<img src="avatar.jpg" alt="河氏碧葉">
+<h1>河氏碧葉</h1>
+<p>亞洲大學・大學一年級學生 🌸</p>
+<p class="tagline">以微笑面對世界的創作者</p>
+</header>
+
+<section>
+<h2>💫 個人介紹</h2>
+<p>
+嗨～我是 <strong class="highlight">河氏碧葉</strong>，來自越南，目前就讀於
+<strong>亞洲大學</strong>。我是一位開朗、充滿創造力的女生，
+喜歡用色彩描繪生活，也喜歡將靈感變成充滿情感的作品。
+</p>
+<p>
+在校園生活中，我特別喜歡參與藝術相關活動與小型展覽。
+亞洲大學的學習氛圍自由又啟發人心，
+讓我每天都能找到創作的動力與微笑的理由。
+</p>
+</section>
+
+<section>
+<h2>🎨 興趣與性格</h2>
+<p>
+我熱愛 <strong>繪畫</strong>、<strong>烹飪</strong> 和 <strong>排球</strong>！
+這些興趣不僅讓我放鬆心情，也教會我團隊合作與耐心的重要。
+朋友們常說我是一個 <strong>溫暖又活潑</strong> 的人，
+總是帶著笑容與正能量。
+</p>
+</section>
+
+<section>
+<h2>🗣️ 語言能力</h2>
+<p>
+- 越南語（母語）<br>
+- 中文（基礎溝通能力，不斷進步中 💪）
+</p>
+</section>
+
+<section>
+<h2>🌈 未來夢想</h2>
+<p>
+我的夢想是成為一位能用畫筆傳遞溫度的畫家，
+希望有一天能舉辦屬於自己的藝術展，
+讓更多人從我的作品中感受到平靜與快樂。
+我相信——「熱愛的事，只要堅持，就會發光 ✨」。
+</p>
+</section>
+
+<footer>
+💬 「用笑容面對世界，用色彩描繪人生。」<br>
+© 2025 河氏碧葉 | 亞洲大學藝術系學生
+</footer>
+
+</body>
+</html>
